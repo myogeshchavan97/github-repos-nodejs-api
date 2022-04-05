@@ -9,7 +9,7 @@ phases:
       - npm install
   build:
     commands:
-      - npm run
+      - npm run test
 artifacts:
   files:
     - '**/*'
