@@ -9,7 +9,7 @@ phases:
       - npm install
   build:
     commands:
-      - npm run build
+      - npm start & sleep 60
 artifacts:
   files:
     - '**/*'
