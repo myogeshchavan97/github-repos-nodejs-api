@@ -6,8 +6,8 @@ pipeline {
             steps {
                 echo 'buliding'
                 sh 'sudo apt update'
-                sh 'sudo apt-get install nodejs'
-                sh 'sudo npm install npm@latest -g'
+                sh 'sudo apt-get install nodejs -y'
+                sh 'npm install'
                 sh 'npm start & sleep 60'
             }
         }
